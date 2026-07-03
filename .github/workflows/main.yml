@@ -1,0 +1,12 @@
+name: CardNotify
+
+on:
+  workflow_dispatch:
+
+jobs:
+  start:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: CardNotify Started
+        run: echo "CardNotify is ready!"
